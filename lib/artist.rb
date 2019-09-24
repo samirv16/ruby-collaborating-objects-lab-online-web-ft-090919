@@ -29,8 +29,8 @@ class Artist
     end
   end
   
-  # def print_songs
-  #   son
+  def print_songs
+    son
 
   
   
