@@ -1,5 +1,7 @@
 class MP3Importer
   
+  @@library = []
+  
   attr_accessor :path
   
   def initialize(path)
@@ -16,7 +18,7 @@ class MP3Importer
   end
   
   def import 
-    files
+    @@library << files
   end
   
   
