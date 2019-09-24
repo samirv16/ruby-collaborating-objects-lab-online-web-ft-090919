@@ -18,7 +18,7 @@ class MP3Importer
   end
   
   def import 
-    @@library << files
+    files.each { |file| Song.new
   end
   
   
